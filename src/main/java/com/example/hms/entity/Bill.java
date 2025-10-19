@@ -19,6 +19,6 @@ public class Bill {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private Long patientId;
-    private Double ampount;
+    private Double amount;
     private String status;
 }
